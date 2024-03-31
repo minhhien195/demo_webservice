@@ -1,0 +1,10 @@
+C:\Users\hien\Downloads\HK4_UIT\LTMCB\demo_webservice_csdl\demo_webservice_csdl\bin\Debug\demo_webservice_csdl.exe.config
+C:\Users\hien\Downloads\HK4_UIT\LTMCB\demo_webservice_csdl\demo_webservice_csdl\bin\Debug\demo_webservice_csdl.exe
+C:\Users\hien\Downloads\HK4_UIT\LTMCB\demo_webservice_csdl\demo_webservice_csdl\bin\Debug\demo_webservice_csdl.pdb
+C:\Users\hien\Downloads\HK4_UIT\LTMCB\demo_webservice_csdl\demo_webservice_csdl\obj\Debug\demo_webservice_csdl.csproj.AssemblyReference.cache
+C:\Users\hien\Downloads\HK4_UIT\LTMCB\demo_webservice_csdl\demo_webservice_csdl\obj\Debug\demo_webservice_csdl.Form1.resources
+C:\Users\hien\Downloads\HK4_UIT\LTMCB\demo_webservice_csdl\demo_webservice_csdl\obj\Debug\demo_webservice_csdl.Properties.Resources.resources
+C:\Users\hien\Downloads\HK4_UIT\LTMCB\demo_webservice_csdl\demo_webservice_csdl\obj\Debug\demo_webservice_csdl.csproj.GenerateResource.cache
+C:\Users\hien\Downloads\HK4_UIT\LTMCB\demo_webservice_csdl\demo_webservice_csdl\obj\Debug\demo_webservice_csdl.csproj.CoreCompileInputs.cache
+C:\Users\hien\Downloads\HK4_UIT\LTMCB\demo_webservice_csdl\demo_webservice_csdl\obj\Debug\demo_webservice_csdl.exe
+C:\Users\hien\Downloads\HK4_UIT\LTMCB\demo_webservice_csdl\demo_webservice_csdl\obj\Debug\demo_webservice_csdl.pdb

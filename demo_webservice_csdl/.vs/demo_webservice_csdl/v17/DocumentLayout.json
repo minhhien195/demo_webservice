@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hien\\Downloads\\HK4_UIT\\LTMCB\\demo_webservice_csdl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C55637EE-88C9-4D3F-85CB-0EB9D2DF7E64}|web\\web.csproj|c:\\users\\hien\\downloads\\hk4_uit\\ltmcb\\demo_webservice_csdl\\web\\webservice1.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55637EE-88C9-4D3F-85CB-0EB9D2DF7E64}|web\\web.csproj|solutionrelative:web\\webservice1.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F177F9BB-B585-4B80-8E5D-BF45734913A0}|demo_webservice_csdl\\demo_webservice_csdl.csproj|c:\\users\\hien\\downloads\\hk4_uit\\ltmcb\\demo_webservice_csdl\\demo_webservice_csdl\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F177F9BB-B585-4B80-8E5D-BF45734913A0}|demo_webservice_csdl\\demo_webservice_csdl.csproj|solutionrelative:demo_webservice_csdl\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F177F9BB-B585-4B80-8E5D-BF45734913A0}|demo_webservice_csdl\\demo_webservice_csdl.csproj|c:\\users\\hien\\downloads\\hk4_uit\\ltmcb\\demo_webservice_csdl\\demo_webservice_csdl\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F177F9BB-B585-4B80-8E5D-BF45734913A0}|demo_webservice_csdl\\demo_webservice_csdl.csproj|solutionrelative:demo_webservice_csdl\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\hien\\Downloads\\HK4_UIT\\LTMCB\\demo_webservice_csdl\\demo_webservice_csdl\\Form1.cs",
+              "RelativeDocumentMoniker": "demo_webservice_csdl\\Form1.cs",
+              "ToolTip": "C:\\Users\\hien\\Downloads\\HK4_UIT\\LTMCB\\demo_webservice_csdl\\demo_webservice_csdl\\Form1.cs",
+              "RelativeToolTip": "demo_webservice_csdl\\Form1.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwHgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T07:17:34.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebService1.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\hien\\Downloads\\HK4_UIT\\LTMCB\\demo_webservice_csdl\\web\\WebService1.asmx.cs",
+              "RelativeDocumentMoniker": "web\\WebService1.asmx.cs",
+              "ToolTip": "C:\\Users\\hien\\Downloads\\HK4_UIT\\LTMCB\\demo_webservice_csdl\\web\\WebService1.asmx.cs",
+              "RelativeToolTip": "web\\WebService1.asmx.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T06:29:06.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hien\\Downloads\\HK4_UIT\\LTMCB\\demo_webservice_csdl\\demo_webservice_csdl\\Form1.cs",
+              "RelativeDocumentMoniker": "demo_webservice_csdl\\Form1.cs",
+              "ToolTip": "C:\\Users\\hien\\Downloads\\HK4_UIT\\LTMCB\\demo_webservice_csdl\\demo_webservice_csdl\\Form1.cs [Design]",
+              "RelativeToolTip": "demo_webservice_csdl\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T06:14:13.516Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

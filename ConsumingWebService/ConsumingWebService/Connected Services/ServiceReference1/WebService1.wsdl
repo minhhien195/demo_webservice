@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Sum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="x" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="y" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SumResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Sum_x0020_of_x0020_Floats">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="x" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="y" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Sum_x0020_of_x0020_FloatsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Sum_x0020_of_x0020_FloatsResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Product_x0020_of_x0020_Numbers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="x" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="y" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Product_x0020_of_x0020_NumbersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Product_x0020_of_x0020_NumbersResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Division_x0020_of_x0020_Numbers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="x" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="y" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Division_x0020_of_x0020_NumbersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Division_x0020_of_x0020_NumbersResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SumSoapIn">
+    <wsdl:part name="parameters" element="tns:Sum" />
+  </wsdl:message>
+  <wsdl:message name="SumSoapOut">
+    <wsdl:part name="parameters" element="tns:SumResponse" />
+  </wsdl:message>
+  <wsdl:message name="Sum_x0020_of_x0020_FloatsSoapIn">
+    <wsdl:part name="parameters" element="tns:Sum_x0020_of_x0020_Floats" />
+  </wsdl:message>
+  <wsdl:message name="Sum_x0020_of_x0020_FloatsSoapOut">
+    <wsdl:part name="parameters" element="tns:Sum_x0020_of_x0020_FloatsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Product_x0020_of_x0020_NumbersSoapIn">
+    <wsdl:part name="parameters" element="tns:Product_x0020_of_x0020_Numbers" />
+  </wsdl:message>
+  <wsdl:message name="Product_x0020_of_x0020_NumbersSoapOut">
+    <wsdl:part name="parameters" element="tns:Product_x0020_of_x0020_NumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="Division_x0020_of_x0020_NumbersSoapIn">
+    <wsdl:part name="parameters" element="tns:Division_x0020_of_x0020_Numbers" />
+  </wsdl:message>
+  <wsdl:message name="Division_x0020_of_x0020_NumbersSoapOut">
+    <wsdl:part name="parameters" element="tns:Division_x0020_of_x0020_NumbersResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="Sum">
+      <wsdl:input message="tns:SumSoapIn" />
+      <wsdl:output message="tns:SumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Sum">
+      <wsdl:input name="Sum_x0020_of_x0020_Floats" message="tns:Sum_x0020_of_x0020_FloatsSoapIn" />
+      <wsdl:output name="Sum_x0020_of_x0020_Floats" message="tns:Sum_x0020_of_x0020_FloatsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Products">
+      <wsdl:input name="Product_x0020_of_x0020_Numbers" message="tns:Product_x0020_of_x0020_NumbersSoapIn" />
+      <wsdl:output name="Product_x0020_of_x0020_Numbers" message="tns:Product_x0020_of_x0020_NumbersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Divisions">
+      <wsdl:input name="Division_x0020_of_x0020_Numbers" message="tns:Division_x0020_of_x0020_NumbersSoapIn" />
+      <wsdl:output name="Division_x0020_of_x0020_Numbers" message="tns:Division_x0020_of_x0020_NumbersSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Sum">
+      <soap:operation soapAction="http://tempuri.org/Sum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sum">
+      <soap:operation soapAction="http://tempuri.org/Sum of Floats" style="document" />
+      <wsdl:input name="Sum_x0020_of_x0020_Floats">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Sum_x0020_of_x0020_Floats">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Products">
+      <soap:operation soapAction="http://tempuri.org/Product of Numbers" style="document" />
+      <wsdl:input name="Product_x0020_of_x0020_Numbers">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Product_x0020_of_x0020_Numbers">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Divisions">
+      <soap:operation soapAction="http://tempuri.org/Division of Numbers" style="document" />
+      <wsdl:input name="Division_x0020_of_x0020_Numbers">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Division_x0020_of_x0020_Numbers">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Sum">
+      <soap12:operation soapAction="http://tempuri.org/Sum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sum">
+      <soap12:operation soapAction="http://tempuri.org/Sum of Floats" style="document" />
+      <wsdl:input name="Sum_x0020_of_x0020_Floats">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Sum_x0020_of_x0020_Floats">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Products">
+      <soap12:operation soapAction="http://tempuri.org/Product of Numbers" style="document" />
+      <wsdl:input name="Product_x0020_of_x0020_Numbers">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Product_x0020_of_x0020_Numbers">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Divisions">
+      <soap12:operation soapAction="http://tempuri.org/Division of Numbers" style="document" />
+      <wsdl:input name="Division_x0020_of_x0020_Numbers">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="Division_x0020_of_x0020_Numbers">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="https://localhost:44337/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="https://localhost:44337/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

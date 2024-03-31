@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo_webservice_csdl", "demo_webservice_csdl\demo_webservice_csdl.csproj", "{F177F9BB-B585-4B80-8E5D-BF45734913A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web", "web\web.csproj", "{C55637EE-88C9-4D3F-85CB-0EB9D2DF7E64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F177F9BB-B585-4B80-8E5D-BF45734913A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F177F9BB-B585-4B80-8E5D-BF45734913A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F177F9BB-B585-4B80-8E5D-BF45734913A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F177F9BB-B585-4B80-8E5D-BF45734913A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55637EE-88C9-4D3F-85CB-0EB9D2DF7E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55637EE-88C9-4D3F-85CB-0EB9D2DF7E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55637EE-88C9-4D3F-85CB-0EB9D2DF7E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55637EE-88C9-4D3F-85CB-0EB9D2DF7E64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E6687B2-F6FB-4311-921A-5468C59399D4}
+	EndGlobalSection
+EndGlobal
